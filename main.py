@@ -21,8 +21,8 @@ if "thread_id" not in st.session_state:
     st.session_state.thread_id = None
 
 # Set up the Streamlit page with a title and icon
-st.set_page_config(page_title="DAVID'S EXAM ASSISTANCE", page_icon=":book:", layout="wide")
-st.header(":book: DAVID'S EXAM ASSISTANCE")
+st.set_page_config(page_title="DAVID'S EXAM ASSISTANT", page_icon=":book:", layout="wide")
+st.header(":book: DAVID'S EXAM ASSISTANT")
 
 #Get the OPENAI API Key
 openai_api_key_env = os.getenv('OPENAI_API_KEY')
